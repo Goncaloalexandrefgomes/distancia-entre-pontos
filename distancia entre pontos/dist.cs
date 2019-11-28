@@ -8,6 +8,9 @@ namespace distancia_entre_pontos
 {
     class dist
     {
+        private double _X, _Y;
+        public double X;
+        public double Y;
 
     }
 }
