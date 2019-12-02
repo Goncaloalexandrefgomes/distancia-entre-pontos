@@ -19,13 +19,13 @@ namespace distancia_entre_pontos
 
         dist distancia = new dist();
 
-        dist P1 = new dist();
-        dist P2 = new dist();
-
         private void Button1_Click(object sender, EventArgs e)
         {
-            P1.X = Convert.ToDouble("X1.Text");
-            P2.X = Convert.ToDouble("");
+            distancia.PontoX1 = X1.Text;
+            distancia.PontoX2 = X2.Text;
+            distancia.PontoY1 = Y1.Text;
+            distancia.PontoY2 = Y2.Text;
+            label4.Text = distancia.Pontos;
         }
     }
 }
